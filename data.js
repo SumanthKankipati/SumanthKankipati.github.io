@@ -41,6 +41,6 @@ const main = {
     }
   ],
   links: [
-    { name: 'Resume', link: 'https://drive.google.com/file/d/1UahfZpW5Z9dHeh2fyjv7w2Zo5ENejhRJ/view?usp=sharing' },
+    { name: 'Resume', link: 'https://drive.google.com/file/d/1UtdNAHpct5P2ll4NMtPMQP41AE2eRltn/view?usp=sharing' },
   ]
 };
