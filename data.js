@@ -3,7 +3,7 @@ const main = {
   mail: 'ksumanth8696@gmail.com',
   img: 'sumanth.jpg',
 
-  //role: ['Machine Learning Enthusiast'],
+  role: ['Programmer, MachineLearning and DataScience Enthusiast'],
   // Refer https://ionicons.com/ and put the icon name inside iconName key
   connects: [
   
@@ -41,6 +41,6 @@ const main = {
     }
   ],
   links: [
-    { name: 'Projects', link: '#projects' },
+    { name: 'Resume', link: 'https://drive.google.com/file/d/1UahfZpW5Z9dHeh2fyjv7w2Zo5ENejhRJ/view?usp=sharing' },
   ]
 };

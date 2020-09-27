@@ -10,13 +10,14 @@ const dom = {
     name: getDOM('#main #name'),
     mail: getDOM('#main #mail'),
     img: getDOM('#main #img'),
-    //role: getDOM('#main #role'),
+    role: getDOM('#main #role'),
     connects: getDOM('#main #connects'),
     links: getDOM('#main #links')
   },
-  projects: getDOM('#projects'),
+  Resume: getDOM('#Resume'),
   logo: getDOM('#projects-page #logo')
 };
+
 
 function assignDOM(dom, value, options) {
   console.log('dom, value, img:', dom, value, img);
@@ -41,7 +42,7 @@ assignDOM(dom.main.name(), main.name);
 assignDOM(dom.main.mail(), main.mail);
 dom.main.mail().href = `mailto:${main.mail}?Subject=Hello%20again`;
 assignDOM(dom.main.img(), main.img, { isImg: true });
-//assignDOM(dom.main.role(), main.role);
+assignDOM(dom.main.role(), main.role);
 
 
 // External Links (ICONS)
@@ -56,7 +57,7 @@ assignDOM(dom.main.connects(), connectsDOM);
 // Internal Links
 const getLinks = links =>
   links
-    .map(({ name, link }) => `<a href="${link}" class="text-green-500" >${name}</a>`)
+    .map(({ name, link }) => `<a href="${link}" class="text-green-500" target="_blank">${name}</a>`)
     .map((link, index, links) => index === links.length - 1 ? link: `${link} - `)
     .join('\n');
 assignDOM(dom.main.links(), getLinks(main.links));
