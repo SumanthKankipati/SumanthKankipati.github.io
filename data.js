@@ -3,7 +3,7 @@ const main = {
   mail: 'ksumanth8696@gmail.com',
   img: 'sumanth.jpg',
 
-  role: ['Machine Learning Enthusiast'],
+  //role: ['Machine Learning Enthusiast'],
   // Refer https://ionicons.com/ and put the icon name inside iconName key
   connects: [
   
