@@ -3,7 +3,7 @@ const main = {
   mail: 'ksumanth8696@gmail.com',
   img: 'sumanth.jpg',
 
-  role: ['Programmer, MachineLearning and DataScience Enthusiast'],
+  role: ['Programmer '],
   // Refer https://ionicons.com/ and put the icon name inside iconName key
   connects: [
   
@@ -16,11 +16,6 @@ const main = {
       name: 'Linkedin',
       iconName: 'logo-linkedin',
       link: 'https://www.linkedin.com/in/sumanth-kankipati-ab910a169/'
-    },
-    {
-      name: 'Facebook',
-      iconName: 'logo-facebook',
-      link: 'https://facebook.com/sumanthkankipati'
     },
     {
     name: 'Instagram',
